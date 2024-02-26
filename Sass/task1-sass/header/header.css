@@ -1,0 +1,94 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header .nav {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .nav .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header .nav .img img {
+  width: 120px;
+  height: 120px;
+}
+.header .nav .img h1 {
+  font-size: 40px;
+}
+.header .nav .link {
+  display: flex;
+  gap: 50px;
+}
+.header .nav .link a {
+  color: #000;
+  font-size: 21px;
+  font-weight: 600;
+}
+.header .img-header {
+  width: 100%;
+  height: 500px;
+  background-image: url(../task1-img/img-header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header .img-header h1 {
+  width: 700px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.header .img-header .hr {
+  width: 150px;
+  border: 2px solid #fff;
+}
+.header .img-header p {
+  color: #fff;
+  font-size: 20px;
+}
+.header .img-header img {
+  position: relative;
+  bottom: -135px;
+  height: 120px;
+  width: 120px;
+}
+.header .header-footer {
+  width: 100%;
+  height: 400px;
+  background-color: #FEFEC9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.header .header-footer h5 {
+  font-size: 23px;
+  width: 83%;
+  text-align: center;
+  opacity: 0.8;
+}
+.header .header-footer button {
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  border: 2px solid rgb(19, 18, 18);
+}/*# sourceMappingURL=header.css.map */

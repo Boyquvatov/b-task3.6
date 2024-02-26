@@ -1,0 +1,112 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-box1 {
+  width: 100%;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 60px 0px;
+}
+.footer .footer-box1 .footer1 {
+  border-radius: 50%;
+}
+.footer .footer-box1 .footer-box1_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-box1 .footer-box1_item1 {
+  width: 450px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.footer .footer-box1 .footer-box1_item1 h2 {
+  width: 340px;
+  text-align: center;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer .footer-box1 .footer-box1_item1 img {
+  width: 65px;
+  height: 65px;
+}
+.footer .footer-box1 .footer-box1_item1 h3 {
+  opacity: 0.4;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.footer .footer-box2 {
+  width: 100%;
+  height: 550px;
+}
+.footer .footer-box2 img {
+  width: 100%;
+  height: 100%;
+}
+.footer .footer-box3 {
+  width: 100%;
+  padding: 60px 0px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-box3 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-box3 .one {
+  width: 600px;
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0.1803921569);
+  font-size: 23px;
+  padding: 15px 25px;
+  border: none;
+  color: white;
+}
+.footer .footer-box3 .two {
+  width: 600px;
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 23px;
+  padding: 15px 25px;
+  border: none;
+  color: white;
+}
+.footer .footer-box3 .two-area {
+  width: 600px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 23px;
+  padding: 15px 25px;
+  border: none;
+  margin-bottom: 40px;
+  color: white;
+}
+.footer .footer-box3 button {
+  color: #8BCAC3;
+  background-color: transparent;
+  border: 1px solid #8BCAC3;
+  font-size: 23px;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+}
+.footer .footer-box3 p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+}/*# sourceMappingURL=footer.css.map */

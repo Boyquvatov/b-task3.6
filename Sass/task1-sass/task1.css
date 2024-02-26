@@ -1,0 +1,14 @@
+@import url(./header/header.css);
+@import url(./main/main.css);
+@import url(./footer/footer.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.minimal {
+  width: 100%;
+}/*# sourceMappingURL=task1.css.map */
